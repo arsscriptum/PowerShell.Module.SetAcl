@@ -12,7 +12,7 @@ class ChannelProperties
 {
     #ChannelProperties
     [string]$Channel = 'SETACL'
-    [ConsoleColor]$TitleColor = 'DarkCyan'
+    [ConsoleColor]$TitleColor = (Get-RandomColor)
     [ConsoleColor]$MessageColor = 'DarkGray'
     [ConsoleColor]$ErrorColor = 'DarkRed'
     [ConsoleColor]$SuccessColor = 'DarkGreen'
